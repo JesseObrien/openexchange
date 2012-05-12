@@ -8,6 +8,14 @@ Install using artisan for Laravel :
 	
 	php artisan bundle:install openexchange
 
+**OR**
+
+Install via github to `APPPATH/bundles/` :
+
+	git clone git://github.com/JesseObrien/openexchange.git APPPATH/bundles/openexchange
+
+**Then**
+
 Add openexchange to `applications/bundles.php` by enabling auto start :
 
 	return array('openexchange' => array('auto' => true));
