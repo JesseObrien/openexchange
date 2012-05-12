@@ -41,6 +41,11 @@ Advanced :
 ```php
 <?php
 
+	// Get the rates object
+	$rates = OpenExchange::rates();
+	echo $rates->USD;
+	1
+
 	// Get a list of all currencies
 	$currencies = OpenExchange::currencies();
 	echo $currencies->USD;
@@ -66,9 +71,5 @@ Advanced :
 	echo OpenExchange::disclaimer();
 	This data is collected from various providers and provided free of charge for informational purposes only, with no guarantee whatsoever of accuracy, validity, availability, or fitness for any purpose; use at your own risk. Other than that, have fun! More info: http://openexchangerates.org/terms/
 	
-	// Get the rates object
-	$rates = OpenExchange::rates();
-	echo $rates->USD;
-	1
 ```
 	
