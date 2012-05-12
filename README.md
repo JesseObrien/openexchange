@@ -40,6 +40,12 @@ Advanced :
 
 ```php
 <?php
+
+	// Get a list of all currencies
+	$currencies = OpenExchange::currencies();
+	echo $currencies->USD;
+	United States Dollar
+	
 	// Get the base currency
 	echo OpenExchange::base();
 	USD
